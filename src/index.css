@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-cat {
+    @apply pl-8 font-bold cursor-pointer tracking-widest hover:text-[#8BC341];
+  }
+  .box {
+    @apply flex gap-[7px] items-center border-black border-[1.5px] rounded-3xl px-3 ml-10;
+  }
+}
